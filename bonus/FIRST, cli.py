@@ -1,4 +1,4 @@
-from functions import get_todos, write_todos
+from bonus.functions import get_todos, write_todos
 import time
 now = time.strftime("%H:%M:%S %Y-%m-%d ")
 print("The time is", now)
