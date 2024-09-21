@@ -1,5 +1,6 @@
 FILEPATH = "todos.txt"
 
+
 def get_todos(filepath=FILEPATH):
     """read  g"""
     with open(filepath, 'r') as file_local:
